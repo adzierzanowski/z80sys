@@ -1,0 +1,14 @@
+; * Common definitions
+
+def NMI_OFFSET, 0x66
+
+def IRQ_OFFSET, 0x38
+def RAM_OFFSET, 0x8000
+def UART_PORT, 1
+
+def UART_BUFSZ_PORT, 2
+def PROGBUF_PORT, 3
+def PROGBUFSZ_LOW_PORT, 4
+
+def PROGBUFSZ_HIGH_PORT, 5
+def RNG_PORT, 6
